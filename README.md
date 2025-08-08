@@ -1,6 +1,13 @@
 # NetScan - Network Discovery Tool
 
-![NetScan Logo](https://i.imgur.com/JQhG3vE.png)
+  ███╗   ██╗███████╗████████╗███████╗ ██████╗ █████╗ ███╗   ██╗
+  ████╗  ██║██╔════╝╚══██╔══╝██╔════╝██╔════╝██╔══██╗████╗  ██║
+  ██╔██╗ ██║█████╗     ██║   ███████╗██║     ███████║██╔██╗ ██║
+  ██║╚██╗██║██╔══╝     ██║   ╚════██║██║     ██╔══██║██║╚██╗██║
+  ██║ ╚████║███████╗   ██║   ███████║╚██████╗██║  ██║██║ ╚████║
+  ╚═╝  ╚═══╝╚══════╝   ╚═╝   ╚══════╝ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═══╝
+   Network Discovery Tool - Ping Your Way Through the Network
+
 
 ## Table of Contents
 - [Overview](#overview)
@@ -9,13 +16,11 @@
 - [Usage](#usage)
 - [Examples](#examples)
 - [Technical Details](#technical-details)
-- [Contributing](#contributing)
-- [License](#license)
 - [Acknowledgments](#acknowledgments)
 
 ## Overview
 
-NetScan is an advanced bash script that helps network administrators and IT professionals discover active hosts within their local network. Using ICMP ping sweeps with configurable parameters, it provides a clear map of connected devices.
+NetScan is a simple yet extremely effective bash script that helps network administrators and IT professionals discover active hosts within their local network. Using ICMP ping sweeps with configurable parameters, it provides a clear map of connected devices.
 
 **Key Advantages:**
 - No dependencies beyond standard Linux tools
@@ -147,13 +152,6 @@ The script uses bitwise operations to:
 | /22 (1022)  | 3.4 minutes      |
 | /16 (65534) | 3.6 hours        |
 
-## Contributing
-
-We welcome contributions! Please follow these guidelines:
-
-1. Fork the repository
-2. Create a feature branch
-3. Submit a pull request
 
 ### Coding Standards
 - 4-space indentation
@@ -161,11 +159,6 @@ We welcome contributions! Please follow these guidelines:
 - Section comments for logic blocks
 - POSIX-compliant where possible
 
-## License
-
-MIT License
-
-Copyright (c) [year] [yourname]
 
 ## Acknowledgments
 
